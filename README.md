@@ -87,3 +87,22 @@ $ brew install springboot
 ```
 $ spring --version
 ```
+
+## 1.3. CLI 테스트 (2.0부터는 CLI 테스트 삭제)
+
+~~$ spring test tests~~
+
+## 1.4. jar 만들기
+```
+$ spring jar ReadingList.jar .
+```
+
+Windows에서는 아래 방법으로 되는듯
+```
+> spring jar ReadingList.jar /
+```
+
+실행하기
+```
+$ java -jar ReadingList.jar
+```
